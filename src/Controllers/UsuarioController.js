@@ -39,7 +39,7 @@ module.exports = {
         return response.json(UsuarioRetorno)
     },
 
-    async edit(request, response) {
+    async delete(request, response) {
         let { _id } = request.body
 
         const UsuarioRetorno = await Usuario.deleteOne(

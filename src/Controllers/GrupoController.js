@@ -45,7 +45,7 @@ module.exports = {
         return response.json(GrupoRetorno)
     },
 
-    async edit(request, response) {
+    async delete(request, response) {
         let { _id } = request.body
 
         const GrupoRetorno = await Grupo.deleteOne(
