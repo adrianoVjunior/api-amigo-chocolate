@@ -9,7 +9,8 @@
     "mongoose": "^5.9.2"
   },
   "scripts": {
-    "dev": "env-cmd -f ./src/.env nodemon index.js"
+    "dev": "env-cmd -f ./src/.env nodemon index.js",
+    "start": "node index.js"
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",
